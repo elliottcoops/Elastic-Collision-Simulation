@@ -43,7 +43,7 @@ In any situation for momentum: Ek (Kinetic energy) = 0.5 * M (Mass) * V^2 (Veloc
 Thus for an elastic collision between two objects: 
 
   - Ek_before_collsion = (0.5 * m1 * v1_inital ^ 2) + (0.5 * m2 * v2_initial ^ 2)
-  - Ek_after_collision = (0.5 * m1 * v1_final ^ 2) + (0.5 * m2 * v2_final ^ 2))
+  - Ek_after_collision = (0.5 * m1 * v1_final ^ 2) + (0.5 * m2 * v2_final ^ 2)
 
 Setting these equal to one another due to an elastic collision:
 
@@ -55,5 +55,9 @@ By using the equations above, we can go through a long rearranging process to at
 
   - v1_final = (m_1 * v_1_initial - m_2 * v_1_initial + 2 * m_2 * v_2_initial) / (m_1 + m_2)
 
-Which allows us to find the velocity of which mass one moves off at, after colliding with mass two. From this, it is also possible to find the velocity of mass two.
+Which allows us to find the velocity of which mass one moves off at, after colliding with mass two. From this, it is also possible to find the velocity of mass two, and thus we can sit back and watch the blocks collide
+
+## Issues
+
+In some cases, depending on the resolution of screen, it's possible that the inital speed of one of the block is too low, so adjust at your own risk.
 
