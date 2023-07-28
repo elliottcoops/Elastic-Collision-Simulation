@@ -19,6 +19,8 @@ python3 main.py
 
 ## How does it work?
 
+Initally, we have two masses, one larger than the other. The lighter mass has an inital velocity of 0, and the larger mass is whatever the user sets it too. 
+
 ### What is an elastic collision?
 
 An elastic collision is where both momentum and kinetic energy are both conserved. This is such that, the total kinetic energy and momentum in the system of masses before, is exactly equal to that after. 
