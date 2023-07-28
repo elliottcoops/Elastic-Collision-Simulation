@@ -19,7 +19,7 @@ python3 main.py
 
 ## How does it work?
 
-### What is an elastic collision
+### What is an elastic collision?
 
 An elastic collision is where both momentum and kinetic energy are both conserved. This is such that, the total kinetic energy and momentum in the system of masses before, is exactly equal to that after. 
 
@@ -55,7 +55,7 @@ By using the equations above, we can go through a long rearranging process to at
 
   - v1_final = (m_1 * v_1_initial - m_2 * v_1_initial + 2 * m_2 * v_2_initial) / (m_1 + m_2)
 
-Which allows us to find the velocity of which mass one moves off at, after colliding with mass two. From this, it is also possible to find the velocity of mass two, and thus we can sit back and watch the blocks collide
+Which allows us to find the velocity of which mass one moves off at, after colliding with mass two. From this, it is also possible to find the velocity of mass two, and thus we can sit back and watch the blocks collide.
 
 ## Issues
 
