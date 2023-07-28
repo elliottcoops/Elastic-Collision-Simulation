@@ -53,7 +53,7 @@ Setting these equal to one another due to an elastic collision:
 
 By using the equations above, we can go through a long rearranging process to attain the final equation: 
 
-  - v1_final = (m_1 * v_1_initial - m_2 * v_1_initial + 2 * m_2 * v_2_initial) / (m_1 + m_2)
+  - v1_final = (m1 * v1_initial - m2 * v1_initial + 2 * m2 * v2_initial) / (m1 + m2)
 
 Which allows us to find the velocity of which mass one moves off at, after colliding with mass two. From this, it is also possible to find the velocity of mass two, and thus we can sit back and watch the blocks collide.
 
