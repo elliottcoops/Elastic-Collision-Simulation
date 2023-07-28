@@ -1,5 +1,4 @@
 import pygame
-import numpy as np
 
 class window:
 
@@ -48,10 +47,7 @@ class window:
                 self.collisions += 1            
 
     def check_collision(self):
-        # Assuming perfectly elastic collisions with the blocks
-        # We can assume that both p and ke are both conserved
-        # ie m1v1 + m2v2 = m1v1' + m2v2' and 
-        # 0.5 * m1 * v1^2 + 0.5 * m2 * v2^2 = 0.5 * m1 * v1'^2 + 0.5 * m2 * v2'^2
+        
         if self.blocks[0].x + self.blocks[0].get_dimensions()[0] >= self.blocks[1].x and self.blocks[0].x <= self.blocks[1].x + self.blocks[1].get_dimensions()[0]:
 
             total_energy = self.blocks[0].get_kinetic_energy() + self.blocks[1].get_kinetic_energy()
