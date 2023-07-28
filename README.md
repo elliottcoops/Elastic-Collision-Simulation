@@ -10,7 +10,7 @@ DISCLAIMER: THIS DOES NOT WORK FOR ANY PAIR OF MASSES.
 
 ```
 git clone https://github.com/elliottcoops/Elastic-Collision-Simulation.git
-cd Logic-Gate-Perceptron
+cd Elastic-Collision-Simulation
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
