@@ -2,6 +2,8 @@
 
 Consider the situation where we have two masses, one of which is larger than the other, with a fixed wall to the left of both the masses, and infinite space to the right. Both of these masses situated on a frictionless plane and undergo elastic collisions. The simulation shows, that given that these both these objects have a mass, of which is a power of 10, the number of collisions is the first n digits of pi.
 
+![Example](example.png)
+
 DISCLAIMER: THIS DOES NOT WORK FOR ANY PAIR OF MASSES.
 
 ## Installation and usage
@@ -15,7 +17,7 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 
-## How does the code work?
+## How does it work?
 
 ### What is an elastic collision
 
@@ -54,3 +56,4 @@ By using the equations above, we can go through a long rearranging process to at
   - v1_final = (m_1 * v_1_initial - m_2 * v_1_initial + 2 * m_2 * v_2_initial) / (m_1 + m_2)
 
 Which allows us to find the velocity of which mass one moves off at, after colliding with mass two. From this, it is also possible to find the velocity of mass two.
+
