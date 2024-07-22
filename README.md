@@ -1,10 +1,11 @@
 # Elastic-Collision-Simulation
 
+## About
 Consider the situation where we have two masses, one of which is larger than the other, with a fixed wall to the left and an infinite space to the right. Both of these masses are situated on a frictionless plane and undergo elastic collisions. The simulation shows that if both these objects have a mass which is a power of 10, the number of collisions is the first n digits of pi.
 
 ![Example](example.png)
 
-DISCLAIMER: THIS DOES NOT WORK FOR ANY PAIR OF MASSES.
+**DISCLAIMER: THIS DOES NOT WORK FOR ANY PAIR OF MASSES.**
 
 ## Installation and usage
 
